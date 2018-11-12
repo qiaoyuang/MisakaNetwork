@@ -1,2 +1,2 @@
 # MisakaNetwork
-一个练手用的Socket服务器
+一个测试用的小demo

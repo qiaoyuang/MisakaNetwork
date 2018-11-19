@@ -2,11 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="628c0a51-4330-439c-ac2f-c74d814da481" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/MisakaNetwork_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/MisakaNetwork_main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/MisakaNetwork_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/MisakaNetwork_test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/w10group/misaka/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/w10group/misaka/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/META-INF/MisakaNetwork_main.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/w10group/misaka/MainKt$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/w10group/misaka/MainKt$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/w10group/misaka/MainKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/w10group/misaka/Message.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/w10group/misaka/UserManager$mUserIdList$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/w10group/misaka/UserManager.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -26,48 +35,62 @@
     <session id="474442093">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="15" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="10" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="gradle" value="3" />
-          <entry key="kt" value="4" />
+          <entry key="gradle" value="6" />
+          <entry key="kt" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Groovy" value="3" />
-          <entry key="Kotlin" value="4" />
+          <entry key="Groovy" value="6" />
+          <entry key="Kotlin" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="gradle" value="21" />
-          <entry key="kt" value="1105" />
+          <entry key="gradle" value="34" />
+          <entry key="kt" value="1113" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Groovy" value="21" />
-          <entry key="Kotlin" value="1105" />
+          <entry key="Groovy" value="34" />
+          <entry key="Kotlin" value="1113" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/w10group/misaka/Main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="26" column="46" lean-forward="true" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
+            <state relative-caret-position="660">
+              <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
               <folding>
-                <element signature="e#29#411#0" expanded="true" />
+                <element signature="e#29#404#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -88,12 +111,12 @@
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
-        <entry key="$PROJECT_DIR$" value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8" />
+        <entry key="$PROJECT_DIR$" value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2" />
       </map>
     </option>
     <option name="myGradleVersions">
       <map>
-        <entry key="$PROJECT_DIR$" value="4.8" />
+        <entry key="$PROJECT_DIR$" value="4.10.2" />
       </map>
     </option>
     <option name="availableProjects">
@@ -277,9 +300,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4599169931000" />
+        <entry key="$PROJECT_DIR$" value="4615868464000" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="576286134" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="2007226471" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="226052439" />
       </map>
     </option>
@@ -344,153 +367,156 @@
               <option name="name" value="MisakaNetwork" />
               <option name="projectBuildClasspath">
                 <list>
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/ide" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/internal-integ-testing" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/platform-native" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/reporting" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/language-groovy" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/build-option" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/launcher" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/platform-base" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/announce" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/signing" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/core" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/installation-beacon" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/jvm-services" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/native" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/tooling-api" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/platform-play" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/ivy" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/wrapper" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/process-services" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/plugins" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/antlr" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/plugin-use" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/language-jvm" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/maven" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/testing-base" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/resources" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/version-control" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/osgi" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/testing-junit-platform" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/resources-http" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/internal-testing" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/composite-builds" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/model-groovy" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/test-kit" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/cli" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/build-init" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/ear" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/jacoco" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/persistent-cache" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/build-comparison" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/publish" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/platform-jvm" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/resources-sftp" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/base-services" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/model-core" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/scala" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/diagnostics" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/dependency-management" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/ide-play" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/workers" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/code-quality" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/language-java" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/build-cache" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/plugin-development" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/core-api" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/javascript" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/resources-gcs" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/testing-native" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/internal-performance-testing" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/ide-native" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/base-services-groovy" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/messaging" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/testing-jvm" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/tooling-api-builders" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/logging" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/language-scala" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/language-native" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/resources-s3" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/internal-android-performance-testing" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/src/build-cache-http" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/gradle-model-groovy-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/gradle-resources-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/gradle-tooling-api-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/gradle-kotlin-dsl-tooling-builders-0.17.5.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/gradle-core-api-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/ant-1.9.11.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/gradle-persistent-cache-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/gradle-docs-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/gradle-cli-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/gradle-launcher-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/ant-launcher-1.9.11.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/gradle-jvm-services-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/gradle-messaging-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/groovy-all-2.4.12.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/gradle-build-option-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/gradle-kotlin-dsl-provider-spi-0.17.5.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/gradle-base-services-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/gradle-core-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/gradle-kotlin-dsl-0.17.5.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/gradle-model-core-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/gradle-base-services-groovy-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/gradle-installation-beacon-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/gradle-process-services-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/gradle-kotlin-dsl-tooling-models-0.17.5.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/gradle-build-cache-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/gradle-kotlin-dsl-provider-plugins-0.17.5.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/gradle-runtime-api-info-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/gradle-native-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/gradle-logging-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/gradle-wrapper-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/plugins/gradle-build-init-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/plugins/gradle-testing-jvm-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/plugins/gradle-testing-base-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/plugins/gradle-platform-jvm-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/plugins/gradle-maven-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/plugins/gradle-code-quality-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/plugins/gradle-resources-s3-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/plugins/gradle-signing-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/plugins/gradle-resources-sftp-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/plugins/gradle-ivy-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/plugins/gradle-test-kit-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/plugins/gradle-language-java-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/plugins/gradle-language-groovy-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/plugins/gradle-osgi-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/plugins/gradle-reporting-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/plugins/gradle-antlr-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/plugins/gradle-resources-gcs-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/plugins/gradle-ide-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/plugins/gradle-platform-play-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/plugins/gradle-resources-http-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/plugins/gradle-scala-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/plugins/gradle-testing-native-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/plugins/gradle-dependency-management-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/plugins/gradle-composite-builds-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/plugins/gradle-testing-junit-platform-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/plugins/gradle-publish-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/plugins/gradle-ear-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/plugins/gradle-language-jvm-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/plugins/gradle-platform-base-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/plugins/gradle-ide-native-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/plugins/gradle-diagnostics-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/plugins/gradle-plugin-development-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/plugins/gradle-workers-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/plugins/gradle-build-cache-http-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/plugins/gradle-javascript-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/plugins/gradle-version-control-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/plugins/gradle-language-native-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/plugins/gradle-build-comparison-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/plugins/gradle-plugins-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/plugins/gradle-jacoco-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/plugins/gradle-platform-native-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/plugins/gradle-plugin-use-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/plugins/gradle-announce-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/plugins/gradle-tooling-api-builders-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/plugins/ivy-2.2.0.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/plugins/gradle-ide-play-4.8.jar" />
-                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.8/lib/plugins/gradle-language-scala-4.8.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/ide" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/internal-integ-testing" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/platform-native" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/reporting" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/language-groovy" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/build-option" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/launcher" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/platform-base" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/announce" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/signing" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/core" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/installation-beacon" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/jvm-services" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/native" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/tooling-api" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/platform-play" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/ivy" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/wrapper" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/process-services" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/plugins" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/antlr" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/plugin-use" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/language-jvm" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/maven" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/testing-base" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/resources" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/version-control" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/osgi" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/testing-junit-platform" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/resources-http" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/internal-testing" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/composite-builds" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/model-groovy" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/test-kit" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/docs" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/cli" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/build-init" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/ear" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/jacoco" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/persistent-cache" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/build-comparison" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/publish" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/platform-jvm" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/resources-sftp" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/base-services" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/model-core" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/scala" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/diagnostics" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/dependency-management" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/ide-play" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/workers" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/code-quality" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/language-java" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/build-cache" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/plugin-development" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/core-api" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/javascript" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/resources-gcs" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/testing-native" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/internal-performance-testing" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/ide-native" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/base-services-groovy" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/tooling-native" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/messaging" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/testing-jvm" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/tooling-api-builders" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/logging" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/language-scala" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/language-native" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/resources-s3" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/internal-android-performance-testing" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/src/build-cache-http" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/gradle-native-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/gradle-kotlin-dsl-1.0-rc-6.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/gradle-wrapper-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/gradle-docs-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/gradle-jvm-services-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/gradle-process-services-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/ant-1.9.11.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/groovy-all-2.4.15.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/gradle-build-cache-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/gradle-cli-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/ant-launcher-1.9.11.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/gradle-api-metadata-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/gradle-persistent-cache-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/gradle-kotlin-dsl-provider-plugins-1.0-rc-6.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/gradle-kotlin-dsl-tooling-models-1.0-rc-6.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/gradle-model-groovy-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/gradle-launcher-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/gradle-kotlin-dsl-tooling-builders-1.0-rc-6.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/gradle-runtime-api-info-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/gradle-base-services-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/gradle-resources-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/gradle-build-option-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/gradle-logging-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/gradle-core-api-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/gradle-tooling-api-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/gradle-core-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/gradle-messaging-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/gradle-installation-beacon-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/gradle-base-services-groovy-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/gradle-model-core-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/plugins/gradle-tooling-native-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/plugins/gradle-ide-play-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/plugins/gradle-plugins-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/plugins/gradle-platform-native-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/plugins/gradle-reporting-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/plugins/gradle-tooling-api-builders-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/plugins/gradle-testing-native-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/plugins/gradle-testing-jvm-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/plugins/gradle-ide-native-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/plugins/gradle-scala-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/plugins/gradle-ide-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/plugins/gradle-platform-play-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/plugins/gradle-language-scala-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/plugins/gradle-osgi-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/plugins/gradle-composite-builds-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/plugins/gradle-plugin-development-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/plugins/gradle-language-jvm-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/plugins/gradle-javascript-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/plugins/gradle-dependency-management-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/plugins/gradle-platform-jvm-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/plugins/gradle-test-kit-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/plugins/gradle-plugin-use-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/plugins/gradle-publish-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/plugins/gradle-build-init-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/plugins/gradle-resources-gcs-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/plugins/gradle-resources-http-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/plugins/gradle-language-native-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/plugins/gradle-resources-sftp-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/plugins/gradle-jacoco-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/plugins/gradle-testing-junit-platform-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/plugins/gradle-build-comparison-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/plugins/gradle-resources-s3-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/plugins/gradle-maven-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/plugins/gradle-platform-base-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/plugins/gradle-testing-base-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/plugins/gradle-build-cache-http-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/plugins/gradle-diagnostics-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/plugins/gradle-antlr-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/plugins/gradle-workers-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/plugins/gradle-ear-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/plugins/gradle-signing-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/plugins/gradle-language-groovy-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/plugins/gradle-version-control-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/plugins/gradle-ivy-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/plugins/gradle-code-quality-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/plugins/gradle-language-java-4.10.2.jar" />
+                  <option value="/Applications/Android Studio.app/Contents/gradle/gradle-4.10.2/lib/plugins/gradle-announce-4.10.2.jar" />
                 </list>
               </option>
             </ExternalProjectBuildClasspathPojo>
@@ -509,15 +535,15 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/kotlin/com/w10group/misaka/Message.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/w10group/misaka/UserManager.kt" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/w10group/misaka/Main.kt" />
+        <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="950" />
+    <option name="height" value="953" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -527,6 +553,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -534,39 +561,15 @@
               <item name="MisakaNetwork" type="b2602c69:ProjectViewProjectNode" />
               <item name="MisakaNetwork" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
-            <path>
-              <item name="MisakaNetwork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MisakaNetwork" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MisakaNetwork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MisakaNetwork" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="MisakaNetwork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MisakaNetwork" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MisakaNetwork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MisakaNetwork" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="misaka" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -614,15 +617,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="950" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1680" height="952" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2936508" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32983682" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32983682" />
@@ -634,6 +635,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.329849" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32983682" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -648,12 +650,8 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/Main.kt" />
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/w10group/misaka/Message.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/w10group/misaka/UserManager.kt">
       <provider selected="true" editor-type-id="text-editor">
@@ -662,23 +660,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/w10group/misaka/Message.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        <state relative-caret-position="30">
+          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../OurDiary/app/src/main/java/com/w10group/ourdiary/util/Util.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="48" column="59" lean-forward="true" selection-start-line="48" selection-start-column="59" selection-end-line="48" selection-end-column="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/w10group/misaka/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="26" column="46" lean-forward="true" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
+        <state relative-caret-position="660">
+          <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
           <folding>
-            <element signature="e#29#411#0" expanded="true" />
+            <element signature="e#29#404#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
         </state>
       </provider>
     </entry>

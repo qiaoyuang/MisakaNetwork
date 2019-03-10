@@ -5,6 +5,7 @@ import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.channels.SendChannel
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
+import java.util.*
 
 fun queen(n: Int): Int = Array(n) { it }.permutationQueen(0)
 
@@ -24,7 +25,7 @@ private fun Array<Int>.permutationQueen(i: Int): Int {
             if (i != j) {
                 d[i] = d[j].also { d[j] = d[i] }
                 judgment()
-            } else if (i == 0) judgment()
+            }
             count += d.permutationQueen(i + 1)
         }
     }
@@ -38,7 +39,7 @@ fun CoroutineScope.queenAsync(n: Int): Deferred<Int> = async {
 }
 
 // 协程并发 N 皇后
-private fun CoroutineScope.permutationQueenConcurrent(array: Array<Int>, i: Int, sendChannel: SendChannel<Int>): Job = launch {
+private fun CoroutineScope.permutationQueenConcurrent(array: Array<Int>, index: Int, sendChannel: SendChannel<Int>): Job = launch {
     var count = 0
     val mutex = Mutex()
 
@@ -51,27 +52,28 @@ private fun CoroutineScope.permutationQueenConcurrent(array: Array<Int>, i: Int,
         }
     }
 
-    val channelSize = array.size - i
+    val channelSize = array.size - index
     val subChannel = Channel<Int>(channelSize)
-    if (i < channelSize) {
-        for (j in i until array.size) {
-            launch {
-                val d = array.clone()
-                if (i != j) {
-                    d[i] = d[j].also { d[j] = d[i] }
-                    launch { d.judgment() }
-                } else if (i == 0) launch { d.judgment() }
-                permutationQueenConcurrent(d, i + 1, subChannel)
+    val jobList = LinkedList<Job>()
+    if (index < channelSize) {
+        for (j in index until array.size) {
+            val d = array.clone()
+            if (index != j) {
+                d[index] = d[j].also { d[j] = d[index] }
+                jobList.add(launch { d.judgment() })
             }
+            jobList.add(permutationQueenConcurrent(d, index + 1, subChannel))
         }
     }
 
     repeat(channelSize) {
-        val newCount = subChannel.receive()
-        mutex.withLock {
-            count += newCount
+        val job = launch {
+            val newCount = subChannel.receive()
+            mutex.withLock { count += newCount }
         }
+        jobList.add(job)
     }
+    jobList.forEach { it.join() }
     sendChannel.send(count)
 }
 
@@ -86,6 +88,7 @@ private fun Array<Int>.judgmentQueen(): Boolean {
     return true
 }
 
+// 用 0 和 1 的矩阵描述一种 N 皇后的情况
 private fun Array<Int>.show() {
     for (i in indices) {
         for (j in indices)

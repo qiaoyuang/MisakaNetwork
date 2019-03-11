@@ -13,18 +13,12 @@ fun queen(n: Int): Int = Array(n) { it }.permutationQueen(0)
 private fun Array<Int>.permutationQueen(i: Int): Int {
     var count = 0
     lateinit var d: Array<Int>
-    fun judgment() {
-        if (d.judgmentQueen()) {
-            //d.show()
-            count++
-        }
-    }
     if (i < size - 1) {
         for (j in i until size) {
             d = clone()
             if (i != j) {
                 d[i] = d[j].also { d[j] = d[i] }
-                judgment()
+                if (d.judgmentQueen()) count++
             }
             count += d.permutationQueen(i + 1)
         }
@@ -39,44 +33,41 @@ fun CoroutineScope.queenAsync(n: Int): Deferred<Int> = async {
 }
 
 // 协程并发 N 皇后
-private fun CoroutineScope.permutationQueenConcurrent(array: Array<Int>, index: Int, sendChannel: SendChannel<Int>): Job = launch {
+private fun CoroutineScope.permutationQueenConcurrent(array: Array<Int>, i: Int, sendChannel: SendChannel<Int>): Job = launch {
     var count = 0
     val mutex = Mutex()
-
-    suspend fun Array<Int>.judgment() {
-        if (judgmentQueen()) {
-            mutex.withLock {
-                //show()
-                count++
-            }
-        }
-    }
-
-    val channelSize = array.size - index
+    val channelSize = array.size - i
     val subChannel = Channel<Int>(channelSize)
     val jobList = LinkedList<Job>()
-    if (index < channelSize) {
-        for (j in index until array.size) {
+    if (i < array.size - 1) {
+        for (j in i until array.size) {
             val d = array.clone()
-            if (index != j) {
-                d[index] = d[j].also { d[j] = d[index] }
-                jobList.add(launch { d.judgment() })
+            if (i != j) {
+                d[i] = d[j].also { d[j] = d[i] }
+                val job = launch {
+                    if (d.judgmentQueen()) {
+                        mutex.withLock {
+                            count++
+                        }
+                    }
+                }
+                jobList.add(job)
             }
-            jobList.add(permutationQueenConcurrent(d, index + 1, subChannel))
+            permutationQueenConcurrent(d, i + 1, subChannel)
         }
-    }
-
-    repeat(channelSize) {
-        val job = launch {
-            val newCount = subChannel.receive()
-            mutex.withLock { count += newCount }
+        repeat(channelSize) {
+            val job = launch {
+                val newCount = subChannel.receive()
+                mutex.withLock { count += newCount }
+            }
+            jobList.add(job)
         }
-        jobList.add(job)
+        jobList.forEach { it.join() }
     }
-    jobList.forEach { it.join() }
     sendChannel.send(count)
 }
 
+// 判断一个数组是否符合 N 皇后的情况
 private fun Array<Int>.judgmentQueen(): Boolean {
     for (i in indices) {
         for (j in i + 1 until size) {

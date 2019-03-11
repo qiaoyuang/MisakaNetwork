@@ -9,7 +9,7 @@ import kotlinx.coroutines.*
  */
 
 fun main() = runBlocking {
-    val n = 4
+    val n = 8
 
     // 普通版本
     val startTime1 = System.currentTimeMillis()

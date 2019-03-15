@@ -12,10 +12,9 @@ fun queen(n: Int): Int = Array(n) { it }.permutationQueen(0)
 // 普通递归 N 皇后
 private fun Array<Int>.permutationQueen(i: Int): Int {
     var count = 0
-    lateinit var d: Array<Int>
     if (i < size - 1) {
         for (j in i until size) {
-            d = clone()
+            val d = clone()
             if (i != j) {
                 d[i] = d[j].also { d[j] = d[i] }
                 if (d.judgmentQueen()) count++
